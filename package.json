@@ -1,0 +1,12 @@
+{
+  "name": "dai-hiep-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.cjs",
+    "start": "node server.cjs",
+    "build": "node validate.cjs",
+    "test": "node tests/run-all.cjs",
+    "verify": "npm run build && npm test"
+  }
+}
